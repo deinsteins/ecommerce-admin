@@ -10,3 +10,15 @@ input, textarea{
 input:focus, textarea:focus{
     @apply border-blue-900;
 }
+
+h1{
+    @apply text-xl text-blue-900 mb-2;
+}
+
+label{
+    @apply text-blue-900;
+}
+
+.btn-primary{
+    @apply text-white bg-blue-900 rounded-md px-4 py-1;
+}
